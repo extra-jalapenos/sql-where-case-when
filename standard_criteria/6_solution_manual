@@ -1,0 +1,4 @@
+-- Doctorate: Female 80, Male 289
+-- General Pop: female 10771, male 21790
+
+SELECT (80 / 10771 * 100) as Percent_Female, (289 / 21790 * 100) as Percent_Male
