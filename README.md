@@ -25,5 +25,4 @@ Keep using the `bigquery-public-data.ml_datasets.census_adult_income` dataset an
 ![alt text](image.png)
 Then, in the same statement, select all variables from the dataset, including the newly created marital_status_short and, using a WHERE clause, keep only people that are married (make sure you use the new variable you just created in the WHERE clause), have a positive capital gain and are of Amer-Indian-Eskimo race from the United States.
 How many people are there?
-
-Given the resulting dataset from the previous question, what is the average capital gain of males and females? Write a query that shows those two results in the output table and ROUND them to the closest integer.
+8. Given the resulting dataset from the previous question, what is the average capital gain of males and females? Write a query that shows those two results in the output table and ROUND them to the closest integer.
