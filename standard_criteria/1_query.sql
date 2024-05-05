@@ -6,5 +6,5 @@ SELECT age,
     WHEN (age >= 60 AND age <= 79) THEN "60-79"
     WHEN (age >= 80) THEN ">=80"
     ELSE "unknown"
-  END as age_bracket,
+  END as age_bracket
 FROM `bigquery-public-data.ml_datasets.census_adult_income` LIMIT 1000
