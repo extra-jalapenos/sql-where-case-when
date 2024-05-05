@@ -1,4 +1,4 @@
-SELECT count(education), education
+SELECT race, sex, education, count(race) as count
 FROM `bigquery-public-data.ml_datasets.census_adult_income`
-GROUP BY education
-LIMIT 1000
+WHERE (TRIM(race) = "White" AND TRIM(sex) = "Male" AND education_num = 16)
+GROUP BY race, sex, education
